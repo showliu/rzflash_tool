@@ -14,7 +14,6 @@ ex.
 ex. 
 > $ rzflash-tool.py -s /dev/ttyUSB0 -b 115200 -m file -w Flash_Writer_YOU_BUILT.mot
 <br>
-
 > $ rzflash-tool.py -s /dev/ttyUSB0 -b 115200 -m file -f bl2_YOU_BUILT.srec
 
 ### "qspi" mode: write the firmware file to the qspi flash
