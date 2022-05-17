@@ -8,7 +8,7 @@ ex.
 
 ### single "command" mode: send single command to the board, use the mode to send other data as well. 
 ex.
-> $ rzflash-tool.py -s /dev/ttyUSB0 -b 115200 -m command -c h    # send the 'h' command to get the help menu from console
+> $ rzflash-tool.py -s /dev/ttyUSB0 -b 115200 -m command -c h
 
 ### send "file" mode: send file to the board.
 ex. 
