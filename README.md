@@ -11,7 +11,7 @@ ex.
 $ rzflash-tool.py -s /dev/ttyUSB0 -b 115200 -m command -c h    # send the 'h' command to get the help menu from console
 
 ### send "file" mode: send file to the board.
-ex.
+ex. 
 $ rzflash-tool.py -s /dev/ttyUSB0 -b 115200 -m file -w Flash_Writer_YOU_BUILT.mot
 or
 $ rzflash-tool.py -s /dev/ttyUSB0 -b 115200 -m file -f bl2_YOU_BUILT.srec
